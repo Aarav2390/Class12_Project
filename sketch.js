@@ -44,6 +44,10 @@ function setup(){
 function draw() {
   background(0);
  
+if(path.y > 400){
+  path.y = height/2;
+}
+
   drawSprites();
 
 
